@@ -67,7 +67,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.synced_folder "../catalog-website", "/srv/catalog-website", :mount_options => ["uid=33", "dmode=777", "fmode=777"]
   config.vm.synced_folder "../corporate-website", "/srv/corporate-website", :mount_options => ["uid=33", "dmode=777", "fmode=777"]
 
-
   # rendered pages
   config.vm.synced_folder "pages", "/tmp/jekyll-pages", :mount_options => ["uid=33", "dmode=777", "fmode=777"]
 
