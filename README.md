@@ -1,21 +1,21 @@
-jekyll-machine (virtual box + vagrant)
+jekyll-machine (Oracle VM + Vagrant)
 ==================================================================
 
 Software required to be installed before
 ------------------------------------------------------------------
 **Windows:**
-* VirtualBox - https://www.virtualbox.org/wiki/Downloads
+* Oracle VM - https://www.virtualbox.org/wiki/Downloads
 * Vagrant - http://downloads.vagrantup.com/
 * Putty - http://www.putty.org
 * GitHub - https://windows.github.com/
 
-**Tested with:** VirtualBox 5.0.14, Vagrant 1.8.1
+**Tested with:** Oracle VM 5.0.14, Vagrant 1.8.1
 
 Cookbooks
 ------------------------------------------------------------------
 * [jekyll](https://github.com/mlatzko/jekyll-machine/tree/master/cookbooks/jekyll)
 
-Starting a jekyll server:
+Starting Jekyll
 ------------------------------------------------------------------
 The basic usage is described here [jekyllrb.com](http://jekyllrb.com/docs/usage/).
 This section here is just a short instruction.
@@ -23,10 +23,11 @@ This section here is just a short instruction.
 **Command:**
 ```
 sudo jekyll serve --source <source> --destination <destination> --config <config> --host 0.0.0.0 --port <port> --watch --force_polling
-
 ```
-Kill any jekyll's without thinking:
+Stoping Jekyll
 ------------------------------------------------------------------
+It might occur that stoping the previous command via CTRL+C does not work properly,
+in this case just open another console and use the following command.
 ```
 sudo kill -9 $(ps opid= -C jekyll)
 ```
