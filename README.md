@@ -1,7 +1,7 @@
 jekyll-machine (virtual box + vagrant)
 ==================================================================
 
-Software required to be installed before:
+Software required to be installed before
 ------------------------------------------------------------------
 **Windows:**
 * VirtualBox - https://www.virtualbox.org/wiki/Downloads
@@ -11,9 +11,9 @@ Software required to be installed before:
 
 **Tested with:** VirtualBox 5.0.14, Vagrant 1.8.1
 
-Cookbooks:
+Cookbooks
 ------------------------------------------------------------------
-* jekyll
+* [jekyll](https://github.com/mlatzko/jekyll-machine/tree/master/cookbooks/jekyll)
 
 Starting a jekyll server:
 ------------------------------------------------------------------
@@ -31,7 +31,7 @@ Kill any jekyll's without thinking:
 sudo kill -9 $(ps opid= -C jekyll)
 ```
 
-Useful Links:
+Links
 ------------------------------------------------------------------
 * https://www.virtualbox.org/
 * http://www.vagrantbox.es/
@@ -40,6 +40,8 @@ Useful Links:
 * http://jekyllrb.com/docs/usage/
 * https://github.com/Shopify/liquid/wiki/Liquid-for-Designers (Template Language)
 
-Copyright and license:
+Copyright
 ------------------------------------------------------------------
-https://github.com/mlatzko/jekyll-machine/blob/master/LICENSE
+This project is contributed under the Apache License see the 
+[LICENSE](https://github.com/mlatzko/jekyll-machine/blob/master/LICENSE) file
+for further information.
