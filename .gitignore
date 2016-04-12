@@ -1,3 +1,4 @@
-/aptcache/
-/pages/
 /.vagrant/
+
+/aptcache/
+!/aptcache/.gitkeep
