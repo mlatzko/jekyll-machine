@@ -9,7 +9,7 @@ Software required to be installed before:
 * Putty - http://www.putty.org
 * GitHub - https://windows.github.com/
 
-**Tested with:** VirtualBox 5.0.10, Vagrant 1.7.4
+**Tested with:** VirtualBox 5.0.14, Vagrant 1.8.1
 
 Cookbooks:
 ------------------------------------------------------------------
